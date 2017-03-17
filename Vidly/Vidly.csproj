@@ -243,6 +243,34 @@
     <Compile Include="Migrations\201703151446393_AddGenreData.Designer.cs">
       <DependentUpon>201703151446393_AddGenreData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703160947437_GenreIdChangeInMovie.cs" />
+    <Compile Include="Migrations\201703160947437_GenreIdChangeInMovie.Designer.cs">
+      <DependentUpon>201703160947437_GenreIdChangeInMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161029531_AnyChanges.cs" />
+    <Compile Include="Migrations\201703161029531_AnyChanges.Designer.cs">
+      <DependentUpon>201703161029531_AnyChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161055383_AnyChanges1.cs" />
+    <Compile Include="Migrations\201703161055383_AnyChanges1.Designer.cs">
+      <DependentUpon>201703161055383_AnyChanges1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161112184_MovieUpdate.cs" />
+    <Compile Include="Migrations\201703161112184_MovieUpdate.Designer.cs">
+      <DependentUpon>201703161112184_MovieUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161125526_MovieUpdate2.cs" />
+    <Compile Include="Migrations\201703161125526_MovieUpdate2.Designer.cs">
+      <DependentUpon>201703161125526_MovieUpdate2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161127185_MovieUpdate3.cs" />
+    <Compile Include="Migrations\201703161127185_MovieUpdate3.Designer.cs">
+      <DependentUpon>201703161127185_MovieUpdate3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703161133307_MovieUpdate4.cs" />
+    <Compile Include="Migrations\201703161133307_MovieUpdate4.Designer.cs">
+      <DependentUpon>201703161133307_MovieUpdate4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -253,6 +281,8 @@
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -320,6 +350,8 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -362,6 +394,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703151446393_AddGenreData.resx">
       <DependentUpon>201703151446393_AddGenreData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703160947437_GenreIdChangeInMovie.resx">
+      <DependentUpon>201703160947437_GenreIdChangeInMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161029531_AnyChanges.resx">
+      <DependentUpon>201703161029531_AnyChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161055383_AnyChanges1.resx">
+      <DependentUpon>201703161055383_AnyChanges1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161112184_MovieUpdate.resx">
+      <DependentUpon>201703161112184_MovieUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161125526_MovieUpdate2.resx">
+      <DependentUpon>201703161125526_MovieUpdate2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161127185_MovieUpdate3.resx">
+      <DependentUpon>201703161127185_MovieUpdate3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703161133307_MovieUpdate4.resx">
+      <DependentUpon>201703161133307_MovieUpdate4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
